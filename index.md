@@ -12,6 +12,7 @@ Assorted word droppings from around the interwebs.
  * [Two Dandy Queries for SPDX](https://nullpointerfactory.wordpress.com/2016/09/26/two-dandy-queries-for-spdx/)
  * [The Independence Day Time Warp](https://nullpointerfactory.wordpress.com/2016/04/03/independence-day-time-warp/) (A Java 8 date puzzler)
  * [A quick puzzler with Java Optionals](https://nullpointerfactory.wordpress.com/2016/03/30/this-may-or-may-not-have-bitten-me/)
+ * [A Case for Wizards](http://themerlinwall.blogspot.com/2009/03/case-for-wizards.html)
 
 ## Presentations
 * [Documenting the Software Supply Chain with Linked Data](https://bitbucket.org/yevster/supplychainswithlinkeddata/raw/HEAD/Documenting%20the%20Software%20Supply%20Chain%20with%20Linked%20Data.pdf) (Fall, 2016). 
