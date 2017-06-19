@@ -2,11 +2,13 @@
 layout: default
 title: From Java to .NET Core. Part 2. Types
 ---
+# From Java to .NET Core. Part 2. Types
+
 *This article was originally published on the [Red Hat Developer Blog](https://developers.redhat.com/blog/2017/06/15/from-java-to-net-core-part-2-types/#more-436152).*
 
 In my [previous post in the series](https://developers.redhat.com/blog/2017/05/17/from-java-to-net-core-part-1/), I discussed some fairly surface-level differences between C#/.NET and Java. These can be important for Java developers transitioning to .NET Core, to create code that looks and feels “native” to the new ecosystem. In this post, we dig beneath the surface, to understand .NET’s type system. It is my belief that, with Java in the rear view mirror, the .NET type system is more effective and enjoyable to write on. But you be the judge.
 
-# 1. Don’t be so primitive
+## 1. Don’t be so primitive
 
 Quick, what does this line of code do?
 ```
@@ -19,7 +21,7 @@ In .NET, the same line of code does something entirely different. It creates a n
 
 >**Note:** get to know [all of C#’s “built-in types”](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/built-in-types-table) and their aliases. It is the established C# convention that the aliases be used instead of the full class names.  Be especially mindful of bool and string. Seeing String instead of string in C# code is one of the surest ways of sniffing out a Java developer.
 
-# 2. Deeply-Held Values
+## 2. Deeply-Held Values
 
 There’s actually a bit more nuance to the .NET type system than I indicated above. There are no true “primitives” in .NET. All data types are subtypes of ```System.Object```. But all those subtypes can be divided into two groups: Value Types and References Types.
 
@@ -39,7 +41,7 @@ Oh, and don’t worry about our trusty old friend ```==```. It works exactly the
 Values type instances can live on the stack or the heap. When they are local variables, they live on the stack. When they are fields in another object or structure, they live wherever that object or structure lives. So when you write ```int num = 3```, the value ```3``` lives in the execution stack. But when you add num to a list, the value is copied into the heap where the list lives.
 Reference types, on the other hand, always live on the heap and are always passed by reference, just like regular objects in Java.
 
-# 3. Think Outside the (Auto)box
+## 3. Think Outside the (Auto)box
 
 In Java, autoboxing occurs when a primitive value is assigned to an object. For example:
 
@@ -53,7 +55,7 @@ Object num = 3;
 ```
 In this case, we’re assigning an instance of a value type to a variable of a reference type. So under the covers, the compiler will produce code that will create a reference type “box” to contain the value ```3```. As an Object, num will behave like any other reference type: It will live in the heap, it will be passed by reference, and it will be garbage-collected. Auto-boxing is expensive, so avoid it whenever possible.
 
-# 4. Generic Greatness
+## 4. Generic Greatness
 
 Given what we just discussed about the expensiveness of autoboxing, we can reasonably conclude that [Java-style type erasure for generics](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html) is not an option. If a linked list of value types was equivalent in the compiled code to a linked list of reference types, then every value type instance added to that list would have to be autoboxed. This, as we discussed above, is expensive.
 
