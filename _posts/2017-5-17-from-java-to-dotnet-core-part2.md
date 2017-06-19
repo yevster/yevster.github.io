@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: From Java to .NET Core. Part 2. Types
 ---
 # From Java to .NET Core. Part 2. Types
