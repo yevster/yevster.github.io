@@ -2,7 +2,6 @@
 layout: post
 title: From Java to .NET Core. Part 2. Types
 ---
-# From Java to .NET Core. Part 2. Types
 
 *This article was originally published on the [Red Hat Developer Blog](https://developers.redhat.com/blog/2017/06/15/from-java-to-net-core-part-2-types/#more-436152).*
 
