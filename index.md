@@ -4,6 +4,7 @@ layout: default
 
 ## Writing
 Assorted word droppings from around the interwebs.
+ * [Why commercialized open source is a good thing](http://blog.blackducksoftware.com/nugate-reality-commercial-open-source)
  * From Java to .Net Core - what a Java developer needs to know to succeed in the hot, new, fast, cloud-ready open-source ecosystem.
    *  [Part 1.](https://developers.redhat.com/blog/2017/05/17/from-java-to-net-core-part-1/) C# conventions and syntactic desserts
    *  [Part 2.](/2017/06/15/from-java-to-dotnet-core-part2.html) The .NET type system
