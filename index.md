@@ -4,6 +4,8 @@ layout: default
 
 ## Writing
 Assorted word droppings from around the interwebs.
+ * [The Bias Checklist](https://opensource.com/open-organization/17/10/open-decision-bias-checklist) - How bias cripples decision-making in open organizations and what you can do about it.
+ * [Why People and Businesses Get Blindsided by Threats](https://blog.blackducksoftware.com/why-people-businesses-blindsided-threats)
  * [Why commercialized open source is a good thing](http://blog.blackducksoftware.com/nugate-reality-commercial-open-source)
  * From Java to .Net Core - what a Java developer needs to know to succeed in the hot, new, fast, cloud-ready open-source ecosystem.
    *  [Part 1.](https://developers.redhat.com/blog/2017/05/17/from-java-to-net-core-part-1/) C# conventions and syntactic desserts
