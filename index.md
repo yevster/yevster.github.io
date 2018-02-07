@@ -3,7 +3,8 @@ layout: default
 ---
 
 ## Writing
-Assorted word droppings from around the interwebs.
+My assorted word droppings left around the interwebs.
+ * [Power(Shell) to the People](https://opensource.com/article/18/2/powershell-people) - Why Linux and OS X users can fall in love with PowerShell.
  * [How to Make Your Tech Talk Suck](https://medium.com/@YevTheDev/how-to-make-your-tech-talk-suck-e975ce579c57)
  * [The Bias Checklist](https://opensource.com/open-organization/17/10/open-decision-bias-checklist) - How bias cripples decision-making in open organizations and what you can do about it.
  * [Why People and Businesses Get Blindsided by Threats](https://blog.blackducksoftware.com/why-people-businesses-blindsided-threats)
