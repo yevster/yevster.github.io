@@ -21,7 +21,7 @@ What can make so many stakeholders across so many industries respond inadequatel
 
 * **Cognitive Dissonance**. People have a bias toward avoiding information that contradicts their previously established beliefs. So even if threat information enters a stakeholder's field of awareness despite the aforementioned obstacles, that stakeholder may be more likely to find an excuse to dismiss it rather than to change his/her beliefs.
 
-## Burst Your Confidence Bubble - Don't Get Blindsided                                                                            
+## Burst Your Confidence Bubble                                                                  
 
 Confidence bubbles need to be cured and prevented proactively. Here are a few questions leaders at every level should frequently ask:
 
