@@ -1,4 +1,3 @@
-# How People and Businesses get Blindsided by Threats
 *Originally published on the Black Duck Software blog on July 24, 2017*
 
 When Black Duck released the results of its [2017 Open Source Security and Risk Analysis](https://www.blackducksoftware.com/open-source-security-risk-analysis-2017), the results were deeply concerning. Among the audited applications, 96% utilized open source, of which 67% contained known vulnerabilities. On average, the identified vulnerabilities had been known for four years.
