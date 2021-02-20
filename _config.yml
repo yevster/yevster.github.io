@@ -23,7 +23,6 @@ github_username:  yevster
 
 
 # Build settings
-auto: true
 permalink: :year/:month/:day/:title.html
 markdown: kramdown
 theme: jekyll-theme-architect
